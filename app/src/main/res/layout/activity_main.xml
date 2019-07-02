@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/editTextNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="@string/nombre"
+        android:layout_centerHorizontal="true"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"/>
+
+
+    <EditText
+        android:id="@+id/editTextApellido"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="@string/apellido"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/editTextNombre"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"/>
+
+
+    <EditText
+        android:id="@+id/editTextTelefono"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="@string/telefono"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/editTextApellido"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"/>
+
+    <EditText
+        android:id="@+id/editTextCorreo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="@string/correo"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/editTextTelefono"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"/>
+
+
+    <Button
+        android:id="@+id/botonEnviar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextCorreo"
+        android:layout_alignLeft="@id/editTextCorreo"
+        android:text="@string/enviar" />
+
+
+    <Button
+        android:id="@+id/botonLimpiar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextCorreo"
+        android:layout_alignRight="@id/editTextCorreo"
+        android:text="@string/limpiar" />
+
+
+    <TextView
+        android:id="@+id/textViewValoresUsuario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Valores de Usuario"
+        android:layout_below="@id/editTextCorreo"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="60dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+
+    <TextView
+        android:id="@+id/textViewResNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/textViewValoresUsuario"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"/>
+
+
+    <TextView
+        android:id="@+id/textViewResApellido"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/textViewResNombre"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"/>
+
+
+    <TextView
+        android:id="@+id/textViewResTelefono"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/textViewResApellido"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"/>
+
+
+    <TextView
+        android:id="@+id/textViewResCorreo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/textViewResTelefono"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"/>
+
+
+
+
+</RelativeLayout>

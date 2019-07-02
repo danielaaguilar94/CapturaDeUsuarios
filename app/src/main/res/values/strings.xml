@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">CapturaDeUsuarios</string>
+    <string name="nombre">Nombre:</string>
+    <string name="apellido">Apellido:</string>
+    <string name="telefono">Teléfono:</string>
+    <string name="correo">eMail:</string>
+    <string name="enviar">Enviar</string>
+    <string name="limpiar">Limpiar</string>
+    <string name="resnombre">...</string>
+    <string name="resapellido">...</string>
+    <string name="restelefono">...</string>
+    <string name="rescorreo">...</string>
+</resources>
